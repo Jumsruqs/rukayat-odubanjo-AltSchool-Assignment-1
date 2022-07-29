@@ -1,0 +1,80 @@
+/* h1 {
+ text-align: center;
+} */
+
+.container {
+ margin: auto;
+ width: 17%;
+ padding: 10px;
+ border: 1px solid #f2f2f2;
+ -webkit-box-shadow: 1px 1px 4px 0px rgb(173, 162, 162);
+ -moz-box-shadow: 1px 1px 4px 0px rgba(173, 162, 162, 1);
+ box-shadow: 1px 1px 4px 0px rgba(173, 162, 162, 1);
+ background-color: #aa8383;
+ /* display: flex;
+ flex-direction: column; */
+}
+
+.header {
+ background-color: #0d4d10;
+ padding: 10px;
+ color: #fff;
+ text-align: center;
+}
+
+table {
+ width: 100%;
+}
+
+td {
+ width: 25%;
+}
+
+.result {
+ font-size: 24px;
+ padding: 16px 5px;
+ font-weight: 700;
+ text-align: right;
+ width: 96%;
+ border: none;
+ background-color: #F8F8F8;
+}
+
+.global {
+ padding: 15px;
+ font-weight: bold;
+ font-size: 16px;
+ border: none;
+ border-radius: 3px;
+ background-color: #F2F2F2;
+ width: 100%;
+ display: grid;
+ 
+}
+
+/*the global class padding reset for first-row class button*/
+.first-row {
+ padding: 7px;
+ display: grid;
+ grid-template-columns: auto;
+}
+
+.plus {
+ height: 105px;
+}
+
+.green {
+ background-color: #09850f;
+}
+
+.red {
+ background-color: #79022b
+}
+
+.grey {
+ background-color: #e6bfbf;
+}
+
+.white-text {
+ color: #fff;
+}
